@@ -46,5 +46,5 @@ After you do the first insert to mongodb you can go to the root route again (htt
 
 Note: In case you run firstInsert twice or more times, it's not going to insert duplicates because of the line:</br>
      >>>>>> db.news.createIndex({ objectID: 1 }, { unique: true }) <<<<<<<  </br>
-It creates a unique identifier for every object inserted to our collection.</br>
+It will make the objects inside your collection unique, creating indexes for every one.</br>
 In case you want to get duplicates anyways (so your console won't get any mongodb error for the duplicates) you just have to delete this line.
