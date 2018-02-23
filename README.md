@@ -11,8 +11,9 @@ This node.js app gets hacker news from an API (provided by Algolia) and inserts 
 
 MongoDB Installer: https://www.mongodb.com/dr/fastdl.mongodb.org/win32/mongodb-win32-x86_64-2008plus-ssl-3.6.2-signed.msi/download
 
-In order to set up the database you have to install MongoDB in your computer, afterthat you have to set your mongodb path in the command line:</br>
-Example: C:\Program Files\MongoDB\Server\3.6\bin>mongod --dbpath C:/mongo-data</br>
+In order to set up the database you have to install MongoDB in your computer, afterthat you have to create a folder and set it as a db path for mongo. To set your mongodb path in the command line:</br>
+For example in the following case the created folder was named "mongo-data" inside C:/.
+>C:\Program Files\MongoDB\Server\3.6\bin>mongod --dbpath C:/mongo-data</br> 
 
 Note: "mongod" is the command that executes the mongodb primary process.</br>
 Once you've done that mongodb is ready to be called.
