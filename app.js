@@ -43,6 +43,7 @@ app.get('/firstInsert', (req, res) => {
   )
 })
 
+// DELETION ROUTE USED BY THE TRASH ICON!
 app.get('/delete/:_id', (req, res) => {
   // db.news.remove(req.params._id, function(err) {
   db.news.remove({ _id: ObjectId(req.params._id) }, function(err, docs) {
