@@ -1,0 +1,37 @@
+extends layout.pug
+
+block content
+
+  head
+    title HN Feed
+  body
+
+      header.jumbotron
+        h1 HN Feed
+        h4 We <3 hacker news!
+       
+      div.allnews
+                each noti, i in news
+                    if (noti.story_title)
+                        
+                        div.news
+                          a.title(target="_blank" href=noti.story_url)=noti.story_title
+                          span.author=' - '+noti.author+' - '
+                          a.fa.fa-trash(href=/delete/+noti._id)
+                          span.date #{moment(noti.created_at).calendar()}
+                          
+
+                    if (!noti.story_title)
+                        
+                        div.news
+                          a.title(target="_blank" href=noti.url)=noti.title
+                          span.author=' - '+noti.author+' - '
+                          a.fa.fa-trash(href=/delete/+noti._id)
+                          span.date #{moment(noti.created_at).calendar()}
+                           
+                  
+                                            
+
+
+
+

@@ -1,0 +1,22 @@
+{
+  "name": "reigndesign_newsconsumer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jonathan Alva",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "generate-schema": "^2.6.0",
+    "moment": "^2.20.1",
+    "mongodb": "^3.0.2",
+    "mongojs": "^2.5.0",
+    "pretty-date-js": "^1.1.1",
+    "pug": "^2.0.0-rc.4",
+    "request": "^2.83.0"
+  }
+}

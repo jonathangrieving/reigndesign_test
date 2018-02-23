@@ -1,0 +1,56 @@
+.jumbotron{
+	background: #333;
+	margin-bottom:2px;
+}
+
+h1{
+	padding-left: 50px;
+	font-size: 500%;
+	color: #fff
+
+}
+
+h4{
+	padding-left: 50px;
+	font-size: 200%;	
+	color: #fff;
+}	
+
+.fa-trash{
+	float:right;
+	padding-right:50px;
+	display:none;
+}
+
+.news{
+	background-color:#fff;
+	border-bottom:1px solid #ccc;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.news:hover .fa-trash{
+
+	display:block;
+}
+
+.news:hover {
+	background-color: #fafafa;
+}
+
+.date{
+	color:#333;
+	margin-right:80px;
+	float:right;
+}
+
+.author{
+	color:#999;
+
+}
+
+.title{
+	color:#333;
+	margin-left:100px;
+}
+
