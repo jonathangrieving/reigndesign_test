@@ -22,8 +22,9 @@ Once you've done that mongodb is ready to be called.
 // Installing dependencies.
 
 In order to install the dependencies you have to enter to the folder of the application in your terminal and run: </br>
-npm install npm-install-all app.js</br>
-
+npm install </br>
+It will install the dependencies from the package.json file.
+</br>
 Note: If you download the ZIP from github you have to uncompress the file so you can enter to the folder from your command line.
 
 
