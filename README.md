@@ -3,8 +3,7 @@
 # Reigndesign_test
 
 Hacker News API consumer</br>
-This node.js app gets hacker news from an API! (provided by Algolia) </br>
-It inserts the news from the JSON into MongoDB so they can be shown with an interface made with Pug (former Jade) that is basically a template engine.
+This node.js app gets hacker news from an API (provided by Algolia) and inserts the news from the JSON into MongoDB so they can be shown with an interface made with Pug (former Jade) that is basically a template engine.
 
 
 
